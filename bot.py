@@ -528,19 +528,15 @@ async def clear_warnings(ctx, member: discord.Member=None):
     await ctx.send(embed=embed)
 
 
-#  in case user is not administrator in the server
-@add_command.error
-@delete_command.error
-@mute.error
-@unmute.error
-@clear.error
-@info.error
-@clear_warnings.error
-@warn.error
-@ban.error
-@kick.error
-@info.error
-async def dont_have_permission(ctx, error):
-    await ctx.send("**:x: You don't have the required permission to use this command**")
 
+@bot.event
+async def on_command_error(ctx, error):
+    
+    if isinstance(error, commands.MissingPermissions):
+        await ctx.send("**:x: You don't have the required permission to use this command**")
+                          
+    if isinstance(error, commands.CommandNotFound):
+        pass
+
+                          
 bot.run(TOKEN)
