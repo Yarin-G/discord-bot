@@ -23,16 +23,16 @@
   <img src="https://github.com/Yarin-G/images/blob/master/discord_bot_images/steps.png" width="750px">
 </p>
 <br>
-2. create a new application
-3. create a bot and enable the two 'Privileged Gateway Intents'
-4. open `files/settings.json` and fill the fields (token, prefix, welcomes channel)
+2. create a new application<br>
+3. create a bot and enable the two 'Privileged Gateway Intents'<br>
+4. open `files/settings.json` and fill the fields (token, prefix, welcomes channel)<br>
 
 ##### Add The Bot To Your Server
-1. go to 'OAuth2'
-2. click on 'bot' check box under 'SCOPES'
-3. click on 'Administrator' check box under 'BOT PERMISSIONS'
-4. copy the link displayed in 'SCOPES' section and paste it in your browser
-5. select your server
+1. go to 'OAuth2'<br>
+2. click on 'bot' check box under 'SCOPES'<br>
+3. click on 'Administrator' check box under 'BOT PERMISSIONS'<br>
+4. copy the link displayed in 'SCOPES' section and paste it in your browser<br>
+5. select your server<br>
 
 ***that's it! enjou your bot!***
 ***launch it and type '.help' to see all the commands!***
