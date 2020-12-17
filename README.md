@@ -56,7 +56,7 @@ you can use:<br>
 
 ## Custom Commands
 you can add custom commands to the bot. just type:<br>
-`.add-comamnd <command-name> <bot-reply>`
+`.add-command <command-name> <bot-reply>`
 <br>
 the `<command-name>` will be the triger of the command<br>
 and `<bot-reply>` will be the bot respond<br>
