@@ -33,7 +33,7 @@ class Greetings(commands.Cog):
 
             channel = settings_file["welcomes channel"]
 
-            if not channel:  # check if the welcomes chnnel was given or not
+            if not channel:  # check if the welcomes channel was given or not
                 return
 
             channel = discord.utils.get(member.guild.text_channels, name=channel)
@@ -48,6 +48,3 @@ class Greetings(commands.Cog):
 
 def setup(bot):
     bot.add_cog(Greetings(bot))
-
-
-
