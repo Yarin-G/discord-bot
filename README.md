@@ -1,4 +1,10 @@
 # discord-moderator-bot
+<p align="center">
+  <img alt="bot.py" src="https://github.com/Yarin-G/images/blob/master/discord_bot_images/logo.jpg" width="750px">
+</p>
+
+
+
 * Make your server moderation easier with this moderator bot
 * add this bot to couple of different servers in the same time
 * Ban, kick and warn users with one command
