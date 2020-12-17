@@ -72,7 +72,7 @@ for example:<br>
   
   
 ## Verification System
-make new users to verify themselves<br>
+make new users verify themselves<br>
 you can edit the verification message in `files/verify_message.txt`<br>
 to add the verification message just type `.verify-message` and the bot will send your custom verification message<br>
 **note:** make sure to add new role and name it `verified` then place the new role under the bot role
