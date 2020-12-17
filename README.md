@@ -49,8 +49,8 @@ Remember to replace **CLIENT_ID** with your bot client ID
 you can write custom different welcome messages to new users<br>
 just go to `files/channel_welcome_member_message.txt` or `files/private_welcome_member_message.txt` and type your welcome message.<br>
 you can use:<br>
-`{user}` - mention the new user
-`{members_count}` - display number of memebrs in the server
+`{user}` - mention the new user<br>
+`{members_count}` - display number of memebrs in the server<br>
 `{server}` - display the server name
 
 
