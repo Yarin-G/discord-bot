@@ -2,21 +2,22 @@
   <img alt="bot.py" src="https://github.com/Yarin-G/images/blob/master/discord_bot_images/logo.jpg" width="750px">
 </p>
 <br><br>
-## Features
-* ban, kick and warn users with one command
-* easy to use commands
-* add custom commands to the bot without any coding
-* custom welcome messages 
-* verification system
+
+## Features <br>
+* ban, kick and warn users with one command<br>
+* easy to use commands<br>
+* add custom commands to the bot without any coding<br>
+* custom welcome messages <br>
+* verification system<br>
 
 ## Setup
-##### Requirements
+#### Requirements
 * python 3.6 or higher (https://www.python.org/)
 * get `pip`
 * Download requirements using `pip install -r requirements.txt`
 * Clone this repository and run `python bot.py`
 
-##### Create a Bot App 
+#### Create a Bot App 
 1. go to applications in [discord_developer_portal](https://discord.com/developers/applications)
 <br>
 <p align="center">
@@ -27,7 +28,7 @@
 3. create a bot and enable the two 'Privileged Gateway Intents'<br>
 4. open `files/settings.json` and fill the fields (token, prefix, welcomes channel)<br>
 
-##### Add The Bot To Your Server
+#### Add The Bot To Your Server
 1. go to 'OAuth2'<br>
 2. click on 'bot' check box under 'SCOPES'<br>
 3. click on 'Administrator' check box under 'BOT PERMISSIONS'<br>
