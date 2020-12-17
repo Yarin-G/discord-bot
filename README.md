@@ -3,11 +3,11 @@
 </p>
 <br><br>
 ## Features
-> ban, kick and warn users with one command
-> easy to use commands
-> add custom commands to the bot without any coding
-> custom welcome messages 
-> verification system
+* ban, kick and warn users with one command
+* easy to use commands
+* add custom commands to the bot without any coding
+* custom welcome messages 
+* verification system
 
 ## Setup
 ##### Requirements
@@ -34,8 +34,8 @@
 4. copy the link displayed in 'SCOPES' section and paste it in your browser<br>
 5. select your server<br>
 
-***that's it! enjou your bot!***
-***launch it and type '.help' to see all the commands!***
+***that's it! enjou your bot!***<br>
+***launch it and type `.help` to see all the commands!***
 
 
 ## FAQ
