@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="bot.py" src="https://github.com/Yarin-G/images/blob/master/discord_bot_images/logo.jpg" width="750px">
+  <img alt="bot.py" src="https://cdn.discordapp.com/attachments/787269923394682890/789207686608191538/logo.jpg" width="750px">
 </p>
 <br><br>
 
@@ -21,7 +21,7 @@
 1. go to applications in [discord_developer_portal](https://discord.com/developers/applications)
 <br>
 <p align="center">
-  <img src="https://github.com/Yarin-G/images/blob/master/discord_bot_images/steps.png" width="750px">
+  <img src="https://cdn.discordapp.com/attachments/787269923394682890/789207970697183272/steps.png" width="750px">
 </p>
 <br>
 2. create a new application<br>
