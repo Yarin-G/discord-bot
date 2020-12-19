@@ -1,6 +1,7 @@
 import discord
 import json
 from discord.ext import commands
+from discord.utils import get
 
 
 class Greetings(commands.Cog):
@@ -14,6 +15,17 @@ class Greetings(commands.Cog):
         # ignore if bot joins the server
         if member.bot:
             return
+
+        # add roles
+        with open('files/settings.json', 'r') as f:
+            f = json.load(f)
+            roles = f["auto roles"]
+
+        try:
+            for role in roles:
+                await member.add_roles(get(member.guild.roles, name=role))
+        except discord.DiscordException:
+            print("ops, make sure my role is higher than the verified role")
 
         # send private message to the user
         with open("files/private_welcome_member_message.txt", "r") as welcome_message:
@@ -33,7 +45,7 @@ class Greetings(commands.Cog):
 
             channel = settings_file["welcomes channel"]
 
-            if not channel:  # check if the welcomes channel was given or not
+            if not channel:  # check if the welcomes chnnel was given or not
                 return
 
             channel = discord.utils.get(member.guild.text_channels, name=channel)
