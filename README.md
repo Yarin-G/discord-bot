@@ -9,7 +9,7 @@
 * add custom commands to the bot without any coding<br>
 * custom welcome messages <br>
 * verification system<br>
-* add roles to new users<br>
+* automatically add roles to new users<br>
 
 ## Setup
 #### Requirements
@@ -83,5 +83,5 @@ to add the verification message just type `.verify-message` and the bot will sen
 add roles to new users when they join your server<br>
 go to `files/settings.json` and in `auto roles` add the roles you want to give to new users,<br>
 the bot will automatically add the roles you have typed to new users when they join your server<br>
-(you can see an example at `files/settings.json`)
+(you can see an example at `files/settings.json`)<br>
 **note:** make sure the bot's role is higher than the roles you want to give.
