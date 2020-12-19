@@ -15,8 +15,9 @@
 #### Requirements
 * python 3.6 or higher (https://www.python.org/)
 * get `pip`
+* Clone this repository
 * Download requirements using `pip install -r requirements.txt`
-* Clone this repository and run `python bot.py`
+* run `python bot.py`
 
 #### Create a Bot App 
 1. go to applications in [discord_developer_portal](https://discord.com/developers/applications)
