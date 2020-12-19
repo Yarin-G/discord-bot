@@ -1,7 +1,7 @@
 <p align="center">
   <img alt="bot.py" src="https://cdn.discordapp.com/attachments/787269923394682890/789207686608191538/logo.jpg" width="750px">
 </p>
-<br><br>
+<br>
 
 ## Features <br>
 * ban, kick and warn users with one command<br>
@@ -9,6 +9,7 @@
 * add custom commands to the bot without any coding<br>
 * custom welcome messages <br>
 * verification system<br>
+* add roles to new users<br>
 
 ## Setup
 #### Requirements
@@ -45,7 +46,7 @@ A: Invite it by using this URL: https://discord.com/api/oauth2/authorize?client_
 Remember to replace **CLIENT_ID** with your bot client ID
 
 
-## Welcome messages
+## Welcome Messages
 you can write custom different welcome messages to new users<br>
 just go to `files/channel_welcome_member_message.txt` or `files/private_welcome_member_message.txt` and type your welcome message.<br>
 you can use:<br>
@@ -76,3 +77,11 @@ make new users verify themselves<br>
 you can edit the verification message in `files/verify_message.txt`<br>
 to add the verification message just type `.verify-message` and the bot will send your custom verification message<br>
 **note:** make sure to add new role and name it `verified` then place the new role under the bot role
+
+
+## Automatic Roles
+add roles to new users when they join your server<br>
+go to `files/settings.json` and in `auto roles` add the roles you want to give to new users,<br>
+the bot will automatically add the roles you have typed to new users when they join your server<br>
+(you can see an example at `files/settings.json`)
+**note:** make sure the bot's role is higher than the roles you want to give.
