@@ -1,5 +1,6 @@
 {
-  "token": "PLACE YOUR TOKEN HERE",
+  "token": "PLACE WITH YOUR TOKEN",
   "command prefix": ".",
-  "welcomes channel": "general"
+  "welcomes channel": "general",
+  "auto roles": ["role1", "role2"]
 }
