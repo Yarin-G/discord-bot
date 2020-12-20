@@ -12,7 +12,8 @@ intents.reactions = True
 # load settings
 with open('files/settings.json', 'r') as settings_file:
     settings_file = json.load(settings_file)
-    bot = commands.Bot(command_prefix=settings_file["command prefix"], intents=intents)
+    PREFIX = settings_file["command prefix"]
+    bot = commands.Bot(command_prefix=PREFIX, intents=intents)
     TOKEN = settings_file["token"]
 
 
@@ -25,6 +26,7 @@ for file in os.listdir("./cogs"):
 @bot.event
 async def on_ready():
     print("bot is up and ready.")
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name=f"'{PREFIX}' prefix"))
 
 
 @bot.event
