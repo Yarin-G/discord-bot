@@ -95,7 +95,7 @@ class User(commands.Cog):
                 converter = MemberConverter()
                 member = await converter.convert(ctx, user)
                 if member.voice:
-                    await member.edit(mute=True)
+                    await member.edit(mute=False)
                     await ctx.send("**:white_check_mark: user has been unmuted**")
                 else:
                     await ctx.send("**member is not in a voice channel. can't unmute**")
