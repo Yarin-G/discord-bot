@@ -4,7 +4,6 @@
 <br>
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/discord.py?style=flat-square)
-![FAQ](#FAQ)
 
 ## Features <br>
 * ban, kick and warn users with one command<br>
