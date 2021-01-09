@@ -6,7 +6,7 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/discord.py?style=flat-square)<br>
 
 ## Quick Navigation
-[Features](#faq)  [Setup](#setup)  [Welcome Messages](#welcome-messages)  [Custom Commands](#custom-commands)  [Verification System](#verification-system)  [Automatic Roles](#automatic-roles)
+[Features](#faq) | [Setup](#setup) | [Welcome Messages](#welcome-messages) | [Custom Commands](#custom-commands) | [Verification System](#verification-system) | [Automatic Roles](#automatic-roles)
 
 ## Features <br>
 * ban, kick and warn users with one command<br>
