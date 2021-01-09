@@ -3,7 +3,7 @@
 </p>
 <br>
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/discord.py?style=flat-square)<br>
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django)<br>
 
 ## Quick Navigation
 [Features](#features) | [Setup](#setup) | [Welcome Messages](#welcome-messages) | [Custom Commands](#custom-commands) | [Verification System](#verification-system) | [Automatic Roles](#automatic-roles)
